@@ -1,5 +1,5 @@
 # Auto-Z-calibration-for-RRF-3.3-or-later-and-Klicky-Probe
-An automatic calculation of z offset for Voron printers running the Clicky mod and RepRap Firmware 3.3 or later
+An automatic calculation of z offset for Voron printers running the Klicky mod and RepRap Firmware 3.3 or later
 <br>
 Designed to work with:<br>
 https://github.com/jlas1/Klicky-Probe<br>
