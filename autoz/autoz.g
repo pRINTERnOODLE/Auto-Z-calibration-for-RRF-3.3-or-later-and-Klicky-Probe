@@ -7,6 +7,7 @@
 ; ---------- prepare ----------
 
 
+M98 P"/macros/autoz/scripts/defaults.g" ; load some deefaults which will be overwriten by the "edit_me.g"
 M98 P"/macros/autoz/edit_me.g" ; load your settings
 M98 P"/macros/autoz/scripts/autoz_globals.g" ; load autoz framework
 G29 S2 ; disable mesh
@@ -24,7 +25,7 @@ M98 P"/macros/autoz/scripts/pin_xy.g" ; go to the z pin
 M400
 M98 P"/macros/autoz/scripts/drive_autoz.g" ; set z drive safe physics
 
-G30 ; zero the z axis to the nozzle
+G30 Z-99999 ; zero the z axis to the nozzle
 
 M400
 M98 P"/macros/autoz/scripts/restore_zdrive.g" ; restore the z drive to the state before autoz
@@ -92,3 +93,5 @@ M400
 M98 P"/macros/autoz/scripts/unloadclicky.g" ; unload the clicky probe
 M98 P"/macros/autoz/scripts/bedcenter.g" ; go to the center of the bed 
 M98 P"/macros/autoz/scripts/alldone.g" ; do a happy dance
+
+
