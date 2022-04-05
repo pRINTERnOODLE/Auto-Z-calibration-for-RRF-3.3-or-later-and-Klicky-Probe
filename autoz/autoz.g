@@ -25,7 +25,7 @@ M98 P"/macros/autoz/scripts/pin_xy.g" ; go to the z pin
 M400
 M98 P"/macros/autoz/scripts/drive_autoz.g" ; set z drive safe physics
 
-G30 Z-99999 ; zero the z axis to the nozzle
+G30 ; zero the z axis to the nozzle
 
 M400
 M98 P"/macros/autoz/scripts/restore_zdrive.g" ; restore the z drive to the state before autoz
