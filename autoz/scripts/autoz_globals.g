@@ -15,10 +15,10 @@ if !exists(global.autoz_temp0)
  global autoz_temp0 = 10
  
 if !exists(global.autoz_temp1)
- global autoz_temp1 = 10
+ global autoz_temp1 = 15
  
 if !exists(global.autoz_temp2)
- global autoz_temp2 = 10
+ global autoz_temp2 = 20
 
 if !exists(global.clickystatus)
  global clickystatus = "none"
