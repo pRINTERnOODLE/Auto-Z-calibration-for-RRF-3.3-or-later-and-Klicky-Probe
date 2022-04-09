@@ -1,1 +1,1 @@
-G1 X{global.centerx} Y{global.centery} F99999
+G1 X{global.centerx} Y{global.centery} F6000
