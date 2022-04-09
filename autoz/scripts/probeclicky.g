@@ -2,7 +2,7 @@
 
 M558 F100:50 ; slower probing speed
 
-set global.autoz_temp2 = 10
+set global.autoz_temp2 = 10			; set value above target value
 
 while global.autoz_temp2 >= 0.004
 	G30 S-1
@@ -22,7 +22,3 @@ while global.autoz_temp2 >= 0.004
 	echo global.autoz_temp2
 
 set global.autoz = (global.autoz_temp0 + global.autoz_temp1) / 2
-
-
-
-
