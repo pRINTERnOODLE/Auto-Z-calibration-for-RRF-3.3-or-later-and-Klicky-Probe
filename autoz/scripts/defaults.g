@@ -41,3 +41,18 @@ if !exists(global.autozdriveaccel)
 
 if !exists(global.autozdrivejerk)
  global autozdrivejerk = 150 
+ 
+if !exists(global.autoz)
+ global autoz = 0
+
+if !exists(global.autoz_avg0)
+ global autoz_avg0 = 0
+
+if !exists(global.autoz_temp0)
+ global autoz_temp0 = 0
+ 
+if !exists(global.autoz_temp1)
+ global autoz_temp1 = 0
+ 
+if !exists(global.autoz_temp2)
+ global autoz_temp2 = 10

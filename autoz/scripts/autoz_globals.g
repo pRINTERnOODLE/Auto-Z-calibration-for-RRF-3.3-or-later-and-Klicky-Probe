@@ -11,14 +11,14 @@ if !exists(global.autoz)
 if !exists(global.autoz_avg0)
  global autoz_avg0 = 0
 
-if !exists(global.autoz_avg1)
- global autoz_avg1 = 0
-
-if !exists(global.autoz_avg2)
- global autoz_avg2 = 0
-
-if !exists(global.autoz_avg3)
- global autoz_avg3 = 0
+if !exists(global.autoz_temp0)
+ global autoz_temp0 = 0
+ 
+if !exists(global.autoz_temp1)
+ global autoz_temp1 = 0
+ 
+if !exists(global.autoz_temp2)
+ global autoz_temp2 = 10
 
 if !exists(global.clickystatus)
  global clickystatus = "none"
@@ -54,7 +54,7 @@ if !exists(global.centery)
 ; ---------- ---------- Verbose outputs ---------- ----------
 
 ; output current values
-;echo "global.clickystatus defined. Value : " , global.clickystatus
-;echo "global.clickyoffset defined. Value : " , global.clickyoffset
-;echo "global.autoz defined. Value : " , global.autoz
+echo "global.clickystatus defined. Value : " , global.clickystatus
+echo "global.clickyoffset defined. Value : " , global.clickyoffset
+echo "global.autoz defined. Value : " , global.autoz
 
