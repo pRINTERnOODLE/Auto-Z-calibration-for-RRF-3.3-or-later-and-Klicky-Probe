@@ -20,3 +20,4 @@ while global.autoz_temp2 >= 0.003
 	echo global.autoz_temp2
 
 set global.autoz = (global.autoz_temp0 + global.autoz_temp1) / 2
+set global.autoz_temp2 = 10
