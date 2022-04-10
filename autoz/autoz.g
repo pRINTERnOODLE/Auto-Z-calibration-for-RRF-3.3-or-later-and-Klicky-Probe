@@ -7,6 +7,7 @@
 ; ---------- prepare ----------
 
 
+M98 P"/macros/autoz/scripts/defaults.g" ; load some defaults which will be overwriten by the "edit_me.g"
 M98 P"/macros/autoz/edit_me.g" ; load your settings
 M98 P"/macros/autoz/scripts/autoz_globals.g" ; load autoz framework
 G29 S2 ; disable mesh
@@ -91,4 +92,6 @@ M98 P"/macros/autoz/scripts/autozhop_up.g" ; small z hop
 M400
 M98 P"/macros/autoz/scripts/unloadclicky.g" ; unload the clicky probe
 M98 P"/macros/autoz/scripts/bedcenter.g" ; go to the center of the bed 
-M98 P"/macros/autoz/scripts/alldone.g" ; do a happy dance
+;M98 P"/macros/autoz/scripts/alldone.g" ; do a happy dance
+
+
